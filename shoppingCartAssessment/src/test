@@ -1,0 +1,17 @@
+Project Journal - Shopping Cart POS
+
+Design Decisions:
+- Used HashMap<String, Integer> to store cart items and their quantities.
+- Used a separate Item class to allow price association.
+- CartOperations interface for abstraction and testability.
+
+Challenges:
+- Managing cart removal logic cleanly
+- Ensuring proper input validation in console
+
+Testing:
+- JUnit tests written for add, remove, and checkout logic.
+
+Improvements:
+- Could add item descriptions or categories.
+- Add file-based persistence for inventory.
